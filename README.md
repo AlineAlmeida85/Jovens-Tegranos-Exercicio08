@@ -50,7 +50,7 @@ Funcionalidades da aplicação:
 ### GitHub
 ### AlineAlmeida85
 
-### Link: 
+### Link: https://alinealmeida85.github.io/Jovens-Tegranos-Exercicio08/
 
 <h1 align="center">
   <img alt="banner" title="#banner" src="banner.png"/>
