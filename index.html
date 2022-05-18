@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>EXERCÍCIO 08</title>
+    </head>
+    <body>
+        <div class="jumbotron">
+            <div class="container">
+                <h1 class="page-header">Calculos - EXERCÍCIO 08</h1>
+                <p>Fazer um programa para ler três medidas A, B e C. Em seguida, calcular e
+                    mostrar (imprimir os dados com quatro casas decimais):<br>
+                    a) a área do quadrado que tem lado A<br>
+                    b) a área do triângulo retângulo que base A e altura B<br>
+                    c) a área do trapézio que tem bases A e B, e altura C</p>
+            </div>
+        </div>
+        <div class="container formulario">
+            <form>
+                <div class="form-group">
+                    <div class="input-group input-group-md">
+                        <span class="input-group-addon">Digite a medida A:</span>
+                        <input id="inputMedidaA" type="number" class="form-control" aria-describedby="sizing-addon1">
+                        <span class="input-group-addon">Km.</span> 
+                    </div>                  
+                </div>
+                <div class="form-group">
+                    <div class="input-group input-group-md">
+                        <span class="input-group-addon">Digite a medida B:</span>
+                        <input id="inputMedidaB" type="number" class="form-control" aria-describedby="sizing-addon1">
+                        <span class="input-group-addon">litros.</span> 
+                    </div>                  
+                </div>
+                <div class="form-group">
+                    <div class="input-group input-group-md">
+                        <span class="input-group-addon">Digite a medida C:</span>
+                        <input id="inputMedidaC" type="number" class="form-control" aria-describedby="sizing-addon1">
+                        <span class="input-group-addon">litros.</span> 
+                    </div>                  
+                </div>                                      
+                <button type="button" class="btn btn-info" onclick="calcular()">Calcular</button>
+            </form>
+        </div>
+        <br>
+        <div class="container formulario" id="form2">
+            <form>
+                <div class="form-group">
+                    <div class="input-group input-group-md">
+                        <span class="input-group-addon">ÁREA DO QUADRADO:</span>                
+                        <p class="form-control" id="resultadoQuadrado"></p>
+                        <span class="input-group-addon"></span>                    
+                    </div>            
+                </div> 
+                <div class="form-group">
+                    <div class="input-group input-group-md">
+                        <span class="input-group-addon">ÁREA DO TRIÂNGULO:</span>                
+                        <p class="form-control" id="resultadoTriangulo"></p>
+                        <span class="input-group-addon"></span>                    
+                    </div>            
+                </div>
+                <div class="form-group">
+                    <div class="input-group input-group-md">
+                        <span class="input-group-addon">ÁREA DO TRAPÉZIO:</span>                
+                        <p class="form-control" id="resultadoTrapezio"></p>
+                        <span class="input-group-addon"></span>                    
+                    </div>            
+                </div>      
+            </form>      
+        </div>
+        <div class="jumbotron">
+            <div class="container">
+                <p>Espero que  tenha gostado! Feito por Aline Almeida ❤️</p>             
+            </div>
+        </div>
+        <script src="./script.js"></script>     
+    </body>
+</html>
